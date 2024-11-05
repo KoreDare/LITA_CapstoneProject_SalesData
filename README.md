@@ -12,5 +12,5 @@ The primary source of the data used here is SalesData.csv from the LITA Capstone
 - GitHub for Portfolio Building
 - Microsoft Power BI for Data Summarization and Visualization
 
-
-
+<img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/634be8ff-8bd4-4633-827d-6abbea8b3639">
+<img width="529" alt="Sales Data Dashboard" src="https://github.com/user-attachments/assets/9e47c52d-4bd3-4c6c-a50a-7a1ee3816184">
