@@ -15,7 +15,6 @@ The primary source of the data used here is SalesData.csv from the LITA Capstone
 ### Data Analysis
 We explored the data to ascertain the Total Revenue by Region and Average Sales by Product
 
-```=SUMIF(D2:D50001,"North",H2:H50001)
-```=AVERAGEIF(C2:C50001,"shirt",H2:H50001)
+
 
 
