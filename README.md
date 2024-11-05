@@ -16,5 +16,6 @@ The primary source of the data used here is SalesData.csv from the LITA Capstone
 We explored the data to ascertain the Total Revenue by Region and Average Sales by Product
 
 
+<img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
 
-
+<img width="529" alt="Sales Data Dashboard" src="https://github.com/user-attachments/assets/1dc7f76e-91cc-4698-8784-5a45688e7dc5">
