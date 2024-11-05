@@ -13,3 +13,4 @@ The primary source of the data used here is SalesData.csv from the LITA Capstone
 - Microsoft Power BI for Data Summarization and Visualization
 
 
+[Sales Data.xlsx](https://github.com/user-attachments/files/17636823/Sales.Data.xlsx)
