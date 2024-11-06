@@ -16,13 +16,23 @@ The dataset contains sales information for clothes and accessories sold by a ret
 ### Data Analysis
 I imported the dataset as a .csv file from Excel after creating the database in the SQL interface. After cleaning the data, I used the following queries to extract the various information as detailed below:
 
--  Total Sales for each Product Category
+- Total Sales for each Product Category
 
 > ```SQL
 > Select Product, sum(Total_Sales) as TotalSales
 > from [dbo].[Sales_Data_Capstone_Project]
 > Group by Product
 > ```
+
+- Number of Sales Transactions in each Region
+
+> ```SQL
+> select top 1 Product, sum(Total_Sales) as TotalSales
+> from [dbo].[Sales_Data_Capstone_Project]
+> Group by Product
+> Order by 2 desc
+> ```
+
 
 <img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
 
