@@ -19,7 +19,7 @@ I imported the dataset as a .csv file from Excel after creating the database in 
 - Total Sales for each Product Category
 
 > ```SQL
-> Select Product, sum(Total_Sales) as TotalSales
+> select Product, sum(Total_Sales) as TotalSales
 > from [dbo].[Sales_Data_Capstone_Project]
 > Group by Product
 > ```
@@ -27,10 +27,9 @@ I imported the dataset as a .csv file from Excel after creating the database in 
 - Number of Sales Transactions in each Region
 
 > ```SQL
-> select top 1 Product, sum(Total_Sales) as TotalSales
+> select Region, count(Total_Sales) as SalesTransaction
 > from [dbo].[Sales_Data_Capstone_Project]
-> Group by Product
-> Order by 2 desc
+> Group by Region
 > ```
 
 
