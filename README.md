@@ -4,7 +4,7 @@
 This project aims to analyze the sales performance of a retail store by exploring available data to ascertain top-selling products, regional performance, and monthly sales trends. This will, in turn, inform our decision about which products to improve upon and the ones to cut down on. 
 
 ### Data Sources
-The primary data source used here is SalesData.csv from the LITA Capstone Project. [Sales Data.xlsx](https://github.com/user-attachments/files/17636823/Sales.Data.xlsx)
+The primary data source used here is SalesData from the LITA Capstone Project. [Sales Data.xlsx](https://github.com/user-attachments/files/17636823/Sales.Data.xlsx)
 The dataset contains sales information for clothes and accessories sold by a retail store spread out over different regions. We will use Excel, SQL, and Power BI to determine trends and patterns.
 
 ### Data Tools
@@ -29,7 +29,7 @@ I gathered that the highest-selling product by sales value was Shoes, while the 
 <img width="529" alt="Sales Data Dashboard" src="https://github.com/user-attachments/assets/1dc7f76e-91cc-4698-8784-5a45688e7dc5">
 
 ### Data Analysis using SQL
-I imported the dataset as a .csv file from Excel after creating the database in the SQL interface. After cleaning the data, I used the following queries to extract the various information as detailed below:
+I imported the dataset which I had saved as a .csv file from Excel after creating the database in the SQL interface. After cleaning the data, I used the following queries to extract the various information as detailed below:
 
 - Total Sales for each Product Category
 
