@@ -18,8 +18,7 @@ I imported the dataset as a .csv file from Excel after creating the database in 
 
 > Total Sales for each Product Category
 > 
->
->  ```select Product, sum(Total_Sales) as TotalSales
+> ```select Product, sum(Total_Sales) as TotalSales
 > from [dbo].[Sales_Data_Capstone_Project]
 > Group by Product
 
