@@ -18,9 +18,9 @@ I imported the dataset as a .csv file from Excel after creating the database in 
 
 > Total Sales for each Product Category
 > 
-> ``Select Product, sum(Total_Sales) as TotalSales
+> ```Select Product, sum(Total_Sales) as TotalSales
 > from [dbo].[Sales_Data_Capstone_Project]
-> Group by Product
+> Group by Product```
 
 <img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
 
