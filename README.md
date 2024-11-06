@@ -32,6 +32,61 @@ I imported the dataset as a .csv file from Excel after creating the database in 
 > Group by Region
 > ```
 
+- Highest-Selling Product by Total Sales Value
+
+> ```SQL
+> select top 1 Product, sum(Total_Sales) as TotalSales
+> from [dbo].[Sales_Data_Capstone_Project]
+> Group by Product
+> Order by 2 desc
+> ```
+
+- Total Revenue per Product
+
+> ```SQL
+> select Product, sum(Quantity * UnitPrice) as TotalRevenue
+> from [dbo].[Sales_Data_Capstone_Project]
+> Group by Product
+> ```
+
+- Monthly Sales Totals for the Current Year
+
+> ```SQL
+> select datename(month, OrderDate) as Month, sum(Total_Sales) AS SalesTotal
+> from [dbo].[Sales_Data_Capstone_Project]
+> where year(OrderDate) = year(GETDATE())
+> Group by datename(month, OrderDate), datepart(month, OrderDate)
+> order by datepart(month, OrderDate)
+> ```
+
+- Top 5 Customers by Total Purchase Amount
+
+> ```SQL
+> select Top 5 Customer_Id, sum(Quantity * UnitPrice) AS TotalPurchaseAmount
+> from [dbo].[Sales_Data_Capstone_Project]
+> Group by Customer_Id
+> Order by 2 desc
+> ```
+
+- Percentage of Total Sales by Region
+
+> ```SQL
+> select Region, sum(Total_Sales) as RegionSales,
+> sum(Total_Sales) * 100.0 / (select sum(total_sales) from [dbo].[Sales_Data_Capstone_Project]) as PercentageSales
+> from [dbo].[Sales_Data_Capstone_Project]
+> group by Region
+> order by PercentageSales desc
+> ```
+
+- Products with No Sales in the Last Quarter
+
+> ```SQL
+> select Product from [dbo].[Sales_Data_Capstone_Project]
+> group by Product
+> having max(OrderDate) < DATEADD(Quarter, -1, GetDate())
+> ```
+
+
 
 <img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
 
