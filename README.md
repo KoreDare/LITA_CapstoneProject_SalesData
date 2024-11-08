@@ -106,5 +106,6 @@ I imported the dataset which I had saved as a .csv file from Excel after creatin
 
 <img width="605" alt="Sales Data Power BI Pg 1" src="https://github.com/user-attachments/assets/cd122443-d709-4b3c-8aa7-036664e0b36c">
 
-<img width="386" alt="Sales Data Power BI Pg 2" src="https://github.com/user-attachments/assets/612c634a-1bf4-497d-9f20-5cb9f16035b1">
+<img width="382" alt="Sales Data Power BI Pg 2" src="https://github.com/user-attachments/assets/d19df02b-5b9b-4aa5-bc75-e5116393c760">
+
 
