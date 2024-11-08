@@ -22,7 +22,8 @@ Using the PivotTables in Excel, I retrieved the parameters itemized below:
 - Percentage Sales by Region
 - Percentage Sales by Product
 
-I gathered that the highest-selling product by sales value was Shoes, while the Southern Region brought in a greater part of the sales for the store. I also noticed the month with the highest sales made was February. 
+I gathered that the highest-selling product by sales value was Shoes, while the Southern Region brought in a greater part of the sales for the store. 
+I also noticed the month with the highest sales made was February. 
 
 <img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
 
@@ -103,4 +104,7 @@ I imported the dataset which I had saved as a .csv file from Excel after creatin
 
 ### Data Analysis using Power BI
 
+<img width="605" alt="Sales Data Power BI Pg 1" src="https://github.com/user-attachments/assets/cd122443-d709-4b3c-8aa7-036664e0b36c">
+
+<img width="386" alt="Sales Data Power BI Pg 2" src="https://github.com/user-attachments/assets/612c634a-1bf4-497d-9f20-5cb9f16035b1">
 
