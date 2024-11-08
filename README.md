@@ -25,12 +25,12 @@ Using the PivotTables in Excel, I retrieved the parameters itemized below:
 I gathered that the highest-selling product by sales value was Shoes, while the Southern Region brought in a greater part of the sales for the store. 
 I also noticed the month with the highest sales made was February. 
 
-<img width="907" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/e560c498-c34e-4c81-adb0-a39646e51c53">
+<img width="667" alt="Sales Data PivotTables" src="https://github.com/user-attachments/assets/4998e402-adf2-4378-8b98-1b3c29a42c78">
 
-<img width="529" alt="Sales Data Dashboard" src="https://github.com/user-attachments/assets/1dc7f76e-91cc-4698-8784-5a45688e7dc5">
+<img width="530" alt="Sales Data Dashboard" src="https://github.com/user-attachments/assets/bb91cf5a-eea0-4a6e-833a-9cc1e86cbcbc">
 
 ### Data Analysis using SQL
-I imported the dataset which I had saved as a .csv file from Excel after creating the database in the SQL interface. After cleaning the data, I used the following queries to extract the various information as detailed below:
+After creating the database in the SQL interface, I imported the dataset which I had saved as a .csv file from Excel. After cleaning the data, I used the following queries to extract the various information as detailed below:
 
 - Total Sales for each Product Category
 
